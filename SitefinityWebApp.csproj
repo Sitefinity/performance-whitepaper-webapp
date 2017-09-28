@@ -808,12 +808,6 @@
       <HintPath>packages\Telerik.Sitefinity.SiteSync.10.1.6500.0\lib\net45\Telerik.Sitefinity.SiteSync.Impl.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Sitefinity.TestIntegration">
-      <HintPath>References\Telerik.Sitefinity.TestIntegration.dll</HintPath>
-    </Reference>
-    <Reference Include="Telerik.Sitefinity.TestUtilities">
-      <HintPath>References\Telerik.Sitefinity.TestUtilities.dll</HintPath>
-    </Reference>
     <Reference Include="RazorGenerator.Mvc">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\RazorGenerator.Mvc.dll</HintPath>
@@ -919,13 +913,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="LoadTestsDataGenerator.aspx.cs">
-      <DependentUpon>LoadTestsDataGenerator.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LoadTestsDataGenerator.aspx.designer.cs">
-      <DependentUpon>LoadTestsDataGenerator.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Mvc\Controllers\Error403Controller.cs" />
     <Compile Include="Mvc\Controllers\Error500Controller.cs" />
     <Compile Include="Mvc\Controllers\Error404Controller.cs" />
@@ -994,13 +981,6 @@
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="LoadTestsDataGenerator.aspx" />
-    <EmbeddedResource Include="number1.jpg" />
-    <EmbeddedResource Include="number2.jpg" />
-    <EmbeddedResource Include="number3.jpg" />
-    <EmbeddedResource Include="number4.jpg" />
-    <EmbeddedResource Include="number5.jpg" />
-    <EmbeddedResource Include="number6.jpg" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\main.min.css" />
     <Content Include="ResourcePackages\Bootstrap\assets\dist\css\qShop.css" />
@@ -1150,7 +1130,6 @@
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\Blog\List.BlogList.cshtml" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\Blog\Detail.DetailPage.cshtml" />
     <Content Include="ResourcePackages\Bootstrap\client-components\fields\html-field\sf-html-field.sf-cshtml" />
-    <EmbeddedResource Include="LoadTestsModule.zip" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\SiteSelector\SiteSelector.SiteLinks.cshtml" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\SiteSelector\SiteSelector.DropDownMenu.cshtml" />
     <Content Include="ResourcePackages\Bootstrap\MVC\Views\SearchResults\SearchResults.cshtml" />

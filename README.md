@@ -37,6 +37,10 @@ Running project in Load balancing
 2. You need to set machineKey element in your web.config
 3. You need to deploy the same instance and configurations on all web nodes.
 
+Using website personalization
+
+Personalization databse files are excluded from the sample project because of license limitations. You can obtain personalization database files under this folder ~/SitefinityWebApp/App_Data/GeoLocation of an existing intallation of Sitefinity CMS.
+
 ### **Nuget package restoration**
 
 The solution in this repository relies on NuGet packages with Nuget Package Restore enabled. Sitefinity&#39;s Nuget Repository and the instructions on how to add the Sitefinity NuGet server are available here : http://nuget.sitefinity.com/#/home.

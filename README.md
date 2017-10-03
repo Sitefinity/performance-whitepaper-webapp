@@ -31,6 +31,12 @@ Powershell Execution Policy
 Please make sure to set the appropriate  **Powershell**  execution policy in order to avoid build errors. To do this open your _Visual Studio_&#39;s _Package Manager Console_ and execute the following command:
 Set-ExecutionPolicy RemoteSigned
 
+Running project in Load balancing 
+
+1. You need to configure redis cache. In Sitefinity CMS backend, navigate to Administration » Settings » Advanced » System » LoadBalancing » Redis Settings » Connection String.
+2. You need to set machineKey element in your web.config
+3. You need to deploy the same instance and configurations on all web nodes.
+
 ### **Nuget package restoration**
 
 The solution in this repository relies on NuGet packages with Nuget Package Restore enabled. Sitefinity&#39;s Nuget Repository and the instructions on how to add the Sitefinity NuGet server are available here : http://nuget.sitefinity.com/#/home.

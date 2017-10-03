@@ -1,5 +1,5 @@
  ### **Requirements**
-
+ 
 - Sitefinity CMS license
 - .NET Framework 4.5
 - Visual Studio 2012 or newer versions
@@ -50,7 +50,7 @@ The solution in this repository relies on NuGet packages with Nuget Package Rest
 For detailed instructions for adding the Sitefinity Nuget server, go to [Sitefinity NuGet repository](http://nuget.sitefinity.com/#/home).
 
 For a full list of the referenced packages and their versions see the [**packages.config**](https://github.com/Sitefinity/performance-whitepaper-webapp/blob/master/packages.config).
-For a history and additional information related to package versions on different releases of this repository, see the page [*Releases*](https://github.com/Sitefinity/performance-whitepaper-webapp/releases).
+For a history and additional information related to package versions on different releases of this repository, see the [*Releases*](https://github.com/Sitefinity/performance-whitepaper-webapp/releases) page.
 
 ### **Installation instructions:**
 
@@ -67,4 +67,4 @@ To log in Sitefinity CMS backend, use the following credentials:
 
 ### **Disclamer**
 
-The sample code is provided on an "AS IS" basis for preview and testing purposes. Oners makes no warranties, expressed or implied, and disclaims all implied warranties including, without limitation, the implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample code is borne by the user. 
+The sample code is provided on an "AS IS" basis for preview and testing purposes. Owners makes no warranties, expressed or implied, and disclaims all implied warranties including, without limitation, the implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample code is borne by the user. 

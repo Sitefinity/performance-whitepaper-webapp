@@ -1,5 +1,3 @@
-Quantum website used for the Sitefinity CMS performance whitepaper 
-
 ### **Requirements**
  
 - Sitefinity CMS license
@@ -67,6 +65,6 @@ To log in Sitefinity CMS backend, use the following credentials:
 **Username:**  admin  
 **Password:**  password
 
-### **Disclamer**
+### **Disclaimer**
 
 The sample code is provided on an "AS IS" basis for preview and testing purposes. The owner makes no warranties, expressed or implied, and disclaims all implied warranties including, without limitation, the implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample code is borne by the user. 

@@ -1,3 +1,5 @@
+The Sitefinity CMS project used for the load tests in the Performance whitepaper is an ASP.NET MVC-based website and includes widgets that rely on the Feather framework.
+
 ### **Requirements**
  
 - Sitefinity CMS license

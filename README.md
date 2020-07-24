@@ -33,7 +33,7 @@ Some of the main highlights of the Quantum project include:
   - **Windows 7**  - download from  Windows Identity Foundation : http://www.microsoft.com/en-us/download/details.aspx?id=17331
   - **Windows 8**  - in the Control Panel, turn on the relevant Windows feature Windows Identity Foundation 3.5
 
-See a complete list of the system requirements for the solution here: http://docs.sitefinity.com/system-requirements.
+See a complete list of the system requirements for the solution here: https://www.progress.com/documentation/sitefinity-cms/system-requirements.
 
 ### **Prerequisites**
 

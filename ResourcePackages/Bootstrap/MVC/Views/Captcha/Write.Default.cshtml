@@ -9,6 +9,11 @@
 <div data-sf-role="field-captcha-container" style="display:none;" class="@Model.CssClass form-group">
     <div>
         <img data-sf-role="captcha-image" src='@Url.WidgetContent("assets/dist/img/dummy.jpg")'/>
+        @if (Model.EnableAudioCode)
+        {
+            <button class="btn btn-default glyphicon glyphicon-volume-up sf-ml-m" data-sf-role="captcha-audio-btn" type="button" title="@Html.Resource("CaptchaAudioTooltip")"></button>
+            <audio data-sf-role="captcha-audio" controls style="display:none" />
+        }
     </div>
 
     <a data-sf-role="captcha-refresh-button">@Html.Resource("NewCode")</a>
@@ -18,6 +23,9 @@
 			<input data-sf-role="violation-messages" type="hidden" value='{"required": "@Model.ValidatorDefinition.RequiredViolationMessage"}' />
             <label for='@Html.UniqueId("Textbox")'>@Html.Resource("TypeCodeAbove") </label>
             <input id='@Html.UniqueId("Textbox")' type="text" data-sf-role="captcha-input" name="@Model.CaptchaAnswerFormKey" required="required" class="form-control input-sm"/>
+            <p data-sf-role="invalid-captcha-input"  class="alert alert-danger">
+                @Html.Resource("CaptchaErrorMessage")
+            </p>
         </div>
     </div>
     <input type="hidden" data-sf-role="captcha-ca" name="@Model.CaptchaCorrectAnswerFormKey" />
